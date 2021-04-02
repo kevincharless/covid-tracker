@@ -7,11 +7,7 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
+    NavLink
 } from 'reactstrap';
 
 import Logo from '../../assets/images/logo.svg';
@@ -25,14 +21,14 @@ const NavBar = () => {
         <Navbar dark expand="md" fixed="top" style={{ backgroundColor: '#01BAB5' }}>
             <Container>
                 <NavbarBrand href="/">
-                    <img className="me-2 w-25" src={Logo} />
+                    <img className="me-2 w-25" src={Logo} alt="Logo" />
                     <b>COVID</b>Tracker
                 </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                     <Nav className="ms-auto" navbar>
                         <NavItem className="mx-2">
-                            <NavLink activeClass="active" to="beranda">Beranda</NavLink>
+                            <NavLink to="beranda">Beranda</NavLink>
                         </NavItem>
                         <NavItem className="mx-2">
                             <NavLink>Resiko</NavLink>

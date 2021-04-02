@@ -4,7 +4,7 @@ import VirusIllustration from '../../../assets/images/virusIllustration.svg';
 const TrackCount = ({ Title, Count }) => {
     return (
         <div className="d-flex align-items-center py-3" style={{ color: '#fff' }}>
-            <img className="pe-2" src={VirusIllustration} />
+            <img className="pe-2" src={VirusIllustration} alt="Virus Illustration" />
             <div>
                 <p className="m-0" style={{ fontSize: '14px' }}>{Title}</p>
                 <p className="m-0" style={{ fontSize: '24px' }}>{Count}</p>

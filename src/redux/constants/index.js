@@ -1,0 +1,3 @@
+export const FETCH_LOADING = 'FETCH_LOADING';
+export const FETCH_LOADED = 'FETCH_LOADED';
+export const FETCH_COUNT = 'FETCH_COUNT';
