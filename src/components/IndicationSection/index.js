@@ -1,7 +1,4 @@
-import IndicationIllustration from '../../assets/images/indicationIllustration.png'
-import Lungs from '../../assets/images/lungs1.png';
-import Jantung from '../../assets/images/jantung1.png';
-import Kidney from '../../assets/images/kidney1.png';
+import IndicationIllustration from '../../assets/images/indicationIllustration.png';
 
 const IndicationSection = () => {
     return (
