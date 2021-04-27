@@ -50,7 +50,7 @@ body {
   z-index: -1;
 
   display: block;
-  top: -1em;
+  top: 3em;
   bottom: 0;
   left: 0;
 
@@ -58,8 +58,9 @@ body {
   width: 35%;
 }
 
-/* Content */
-.Content {
+/* RiskContent
+ */
+.RiskContent {
   color: black;
 
   display: flex;
@@ -103,8 +104,9 @@ body {
   color: black;
   margin-bottom: 2em;
 }
-/* Content */
-.Content1 {
+/* RiskContent
+ */
+.IndicationContent1 {
   background-color: #a7b8d5;
   color: black;
   font-size: 24px;
@@ -115,7 +117,7 @@ body {
   display: flex;
   align-items: center;
 }
-.Content2 {
+.IndicationContent2 {
   background-color: #94c069;
   color: black;
   font-size: 24px;
@@ -129,15 +131,68 @@ body {
 }
 /* Indication Section */
 
+/* Infection Section */
+.InfectionSectionTitle {
+  color: #85b754;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+.InfectionSectionCovid19 {
+  color: #03ada8;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+.InfectionSectionSubTitle {
+  color: black;
+  background-color: #94c069;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0.4em 0.6em;
+}
+.InfectionIllustration {
+  width: 70%;
+  height: auto;
+}
+
+/* Content */
+.InfectionContent {
+  color: black;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  font-weight: 500;
+}
+.InfectionContentImage {
+  width: 128px;
+  height: 100%;
+}
+.InfectionContentTitle {
+  color: #85b754;
+  font-size: 24px;
+  font-weight: 600;
+}
+.InfectionContentDescription {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+/* Infection Section */
+
 @media only screen and (max-width: 1366px) {
   /* Risk Section */
   /* Risk Illustration */
   .RiskIllustration {
-    top: 1em;
+    top: 4em;
     width: 32%;
   }
 
-  /* Content */
+  /* RiskContent */
   .ContentImage {
     width: 96px;
   }
@@ -153,11 +208,12 @@ body {
   .TitleBar {
     margin-bottom: 3em;
   }
-  /* Content */
-  .Content1 {
+  /* RiskContent
+ */
+  .IndicationContent1 {
     font-size: 18px;
   }
-  .Content2 {
+  .IndicationContent2 {
     font-size: 18px;
     padding: 1em 2em;
     margin-top: 2.5em;
@@ -166,6 +222,26 @@ body {
     width: 80%;
   }
   /* Indication Section */
+
+  /* Infection Section */
+  .InfectionSectionSubTitle {
+    font-size: 24px;
+  }
+
+  /* Content */
+  .InfectionContent {
+    margin-bottom: 3em;
+  }
+  .InfectionContentImage {
+    width: 96px;
+  }
+  .InfectionContentTitle {
+    font-size: 18px;
+  }
+  .InfectionContentDescription {
+    font-size: 16px;
+  }
+  /* Infection Section */
 }
 
 @media only screen and (max-width: 900px) {
@@ -189,8 +265,8 @@ body {
     opacity: 0.8;
   }
 
-  /* Content */
-  .Content {
+  /* RiskContent */
+  .RiskContent {
     margin-bottom: 4em;
     padding: 2em;
   }
@@ -213,11 +289,11 @@ body {
   .IndicationSectionCovid19 {
     font-size: 36px;
   }
-  /* Content */
-  .Content1 {
+  /* RiskContent */
+  .IndicationContent1 {
     font-size: 16px;
   }
-  .Content2 {
+  .IndicationContent2 {
     font-size: 16px;
     padding: 1em 2em;
     margin-top: 6em;
@@ -228,6 +304,50 @@ body {
     margin: 3em 0;
   }
   /* Indication Section */
+
+  /* Infection Section */
+  .InfectionSectionTitle {
+    font-size: 38px;
+  }
+  .InfectionSectionCovid19 {
+    font-size: 38px;
+  }
+  .InfectionSectionSubTitle {
+    font-size: 24px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  .InfectionIllustration {
+    position: absolute;
+    z-index: -1;
+
+    display: block;
+    top: 22em;
+    bottom: 0;
+    left: -5em;
+
+    text-align: center;
+    width: 30%;
+    opacity: 0.8;
+  }
+
+  /* Content */
+  .InfectionContents {
+    margin: 3em 0;
+  }
+  .InfectionContent {
+    margin-bottom: 6em;
+  }
+  .InfectionContentImage {
+    width: 96px;
+  }
+  .InfectionContentTitle {
+    font-size: 18px;
+  }
+  .InfectionContentDescription {
+    font-size: 16px;
+  }
+  /* Infection Section */
 }
 
 @media only screen and (max-width: 600px) {
@@ -250,8 +370,9 @@ body {
     width: 95%;
   }
 
-  /* Content */
-  .Content {
+  /* RiskContent
+ */
+  .RiskContent {
     margin-bottom: 1.5em;
     padding: 1em;
   }
@@ -277,11 +398,12 @@ body {
   .TitleBar {
     margin-bottom: 1em;
   }
-  /* Content */
-  .Content1 {
+  /* RiskContent
+ */
+  .IndicationContent1 {
     font-size: 14px;
   }
-  .Content2 {
+  .IndicationContent2 {
     font-size: 14px;
     padding: 0.5em 1.5em;
     margin-top: 2em;
@@ -292,4 +414,47 @@ body {
     margin: 1em 0;
   }
   /* Indication Section */
+
+  /* Infection Section */
+  .InfectionSectionTitle {
+    font-size: 28px;
+  }
+  .InfectionSectionCovid19 {
+    font-size: 28px;
+  }
+  .InfectionSectionSubTitle {
+    font-size: 24px;
+    margin: 1em 0;
+  }
+  .InfectionIllustration {
+    position: absolute;
+    z-index: -1;
+
+    display: block;
+    top: 18em;
+    bottom: 0;
+    left: -5em;
+
+    text-align: center;
+    width: 50%;
+    opacity: 0.8;
+  }
+
+  /* Content */
+  .InfectionContents {
+    margin-bottom: 0;
+  }
+  .InfectionContent {
+    margin: 1em 0;
+  }
+  .InfectionContentImage {
+    width: 64px;
+  }
+  .InfectionContentTitle {
+    font-size: 16px;
+  }
+  .InfectionContentDescription {
+    font-size: 14px;
+  }
+  /* Infection Section */
 }

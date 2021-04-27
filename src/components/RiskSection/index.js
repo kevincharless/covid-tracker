@@ -5,7 +5,7 @@ import Kidney from '../../assets/images/kidney1.png';
 
 const RiskSection = () => {
     return (
-        <div className="position-relative my-4">
+        <div className="position-relative py-5">
             <div className="container">
                 <div className="RiskSectionTitle">
                     <span className="Title">
@@ -21,7 +21,7 @@ const RiskSection = () => {
                     <div className="col-md-12 col-lg-4 m-0">
                     </div> 
                     <div className="col-md-12 col-lg-8">
-                        <div className="Content" style={{ backgroundColor: '#63CCC9' }}>
+                        <div className="RiskContent" style={{ backgroundColor: '#63CCC9' }}>
                             <img className="ContentImage" src={Lungs} alt="Lungs" />
                             <div>
                                 <h5 className="ContentTitle">Gangguan Pernapasan</h5>
@@ -35,7 +35,7 @@ const RiskSection = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="Content" style={{ backgroundColor: '#85B754' }}>
+                        <div className="RiskContent" style={{ backgroundColor: '#85B754' }}>
                             <img className="ContentImage" src={Jantung} alt="Jantung" />
                             <div>
                                 <h5 className="ContentTitle">Gangguan Jantung </h5>
@@ -44,7 +44,7 @@ const RiskSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="Content" style={{ backgroundColor: '#62CBC9' }}>
+                        <div className="RiskContent" style={{ backgroundColor: '#62CBC9' }}>
                             <img className="ContentImage" src={Kidney} alt="Kidney" />
                             <div>
                                 <h5 className="ContentTitle">Gangguan Ginjal & Hati</h5>

@@ -46,19 +46,19 @@ const HeroSection = () => {
                 
             </Row>
             <Row className="d-flex align-items-center justify-content-center mt-5 p-2 rounded" style={{ backgroundColor: '#01BAB5' }}>
-                    <Col xs="12" md="6" lg="3" className="d-flex align-items-center justify-content-center">
-                        <TrackCount Title="Kasus Hari Ini" Count={`+${covidCount?.new_confirmed.toLocaleString()}`} />
-                    </Col>
-                    <Col xs="12" md="6" lg="3" className="d-flex align-items-center justify-content-center">
-                        <TrackCount Title="Total Kasus" Count={covidCount?.confirmed.toLocaleString()} />
-                    </Col>
-                    <Col xs="12" md="6" lg="3" className="d-flex align-items-center justify-content-center">
-                        <TrackCount Title="Total Sembuh" Count={covidCount?.recovered.toLocaleString()} />
-                    </Col>
-                    <Col xs="12" md="6" lg="3" className="d-flex align-items-center justify-content-center">
-                        <TrackCount Title="Total Kematian" Count={covidCount?.deaths.toLocaleString()} />
-                    </Col>
-                </Row>
+                <Col xs="12" md="6" lg="3" className="d-flex align-items-center justify-content-center">
+                    <TrackCount Title="Kasus Hari Ini" Count={`+${covidCount?.new_confirmed.toLocaleString()}`} />
+                </Col>
+                <Col xs="12" md="6" lg="3" className="d-flex align-items-center justify-content-center">
+                    <TrackCount Title="Total Kasus" Count={covidCount?.confirmed.toLocaleString()} />
+                </Col>
+                <Col xs="12" md="6" lg="3" className="d-flex align-items-center justify-content-center">
+                    <TrackCount Title="Total Sembuh" Count={covidCount?.recovered.toLocaleString()} />
+                </Col>
+                <Col xs="12" md="6" lg="3" className="d-flex align-items-center justify-content-center">
+                    <TrackCount Title="Total Kematian" Count={covidCount?.deaths.toLocaleString()} />
+                </Col>
+            </Row>
         </Container>
     )
 }
