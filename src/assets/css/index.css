@@ -2,7 +2,7 @@ body {
   background-color: #fcfdff;
   color: #01bab5;
 
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat;
   overflow-x: hidden;
 }
 
@@ -15,4 +15,281 @@ body {
 
 .buttonPrimary:hover {
   background-color: #0868c7;
+}
+
+/* Risk Section */
+/* Risk Title */
+.RiskSectionTitle {
+  color: #e96532;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.Title {
+  display: block;
+  line-height: 1em;
+}
+.Hashtag {
+  color: #0868c7;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.Covid19 {
+  color: #03ada8;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* Risk Illustration */
+.RiskIllustration {
+  position: absolute;
+  z-index: -1;
+
+  display: block;
+  top: -1em;
+  bottom: 0;
+  left: 0;
+
+  text-align: center;
+  width: 35%;
+}
+
+/* Content */
+.Content {
+  color: black;
+
+  display: flex;
+  align-items: center;
+  padding: 1em;
+
+  font-weight: 500;
+  margin: 1.2em 0;
+}
+.ContentImage {
+  width: 128px;
+  height: 100%;
+}
+.ContentTitle {
+  color: #a52020;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.ContentDescription {
+  font-size: 18px;
+  margin: 0;
+}
+/* Risk Section */
+
+/* Indication Section */
+.IndicationSectionTitle {
+  color: #85b754;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+.IndicationSectionCovid19 {
+  color: #03ada8;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 600;
+}
+.TitleBar {
+  color: black;
+  margin-bottom: 2em;
+}
+/* Content */
+.Content1 {
+  background-color: #a7b8d5;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0.5em;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+}
+.Content2 {
+  background-color: #94c069;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0.5em 1.5em;
+  margin-top: 1em;
+}
+.IndicationIllustration {
+  width: 90%;
+  height: auto;
+}
+/* Indication Section */
+
+@media only screen and (max-width: 1366px) {
+  /* Risk Section */
+  /* Risk Illustration */
+  .RiskIllustration {
+    top: 1em;
+    width: 32%;
+  }
+
+  /* Content */
+  .ContentImage {
+    width: 96px;
+  }
+  .ContentTitle {
+    font-size: 16px;
+  }
+  .ContentDescription {
+    font-size: 14px;
+  }
+  /* Risk Section */
+
+  /* Indication Section */
+  .TitleBar {
+    margin-bottom: 3em;
+  }
+  /* Content */
+  .Content1 {
+    font-size: 18px;
+  }
+  .Content2 {
+    font-size: 18px;
+    padding: 1em 2em;
+    margin-top: 2.5em;
+  }
+  .IndicationIllustration {
+    width: 80%;
+  }
+  /* Indication Section */
+}
+
+@media only screen and (max-width: 900px) {
+  /* Risk Section */
+  /* Risk Title */
+  .RiskSectionTitle {
+    font-size: 28px;
+    margin: 1em 0;
+  }
+  .Hashtag {
+    font-size: 28px;
+  }
+  .Covid19 {
+    font-size: 28px;
+  }
+
+  /* Risk Illustration */
+  .RiskIllustration {
+    top: 3em;
+    width: 75%;
+    opacity: 0.8;
+  }
+
+  /* Content */
+  .Content {
+    margin-bottom: 4em;
+    padding: 2em;
+  }
+  .ContentImage {
+    width: 96px;
+    height: 100%;
+  }
+  .ContentTitle {
+    font-size: 18px;
+  }
+  .ContentDescription {
+    font-size: 16px;
+  }
+  /* Risk Section */
+
+  /* Indication Section */
+  .IndicationSectionTitle {
+    font-size: 36px;
+  }
+  .IndicationSectionCovid19 {
+    font-size: 36px;
+  }
+  /* Content */
+  .Content1 {
+    font-size: 16px;
+  }
+  .Content2 {
+    font-size: 16px;
+    padding: 1em 2em;
+    margin-top: 6em;
+    margin-bottom: 3em;
+  }
+  .IndicationIllustration {
+    width: 100%;
+    margin: 3em 0;
+  }
+  /* Indication Section */
+}
+
+@media only screen and (max-width: 600px) {
+  /* Risk Section */
+  /* Risk Title */
+  .RiskSectionTitle {
+    font-size: 16px;
+    margin: 0.5em 0;
+  }
+  .Hashtag {
+    font-size: 16px;
+  }
+  .Covid19 {
+    font-size: 16px;
+  }
+
+  /* Risk Illustration */
+  .RiskIllustration {
+    top: 5em;
+    width: 95%;
+  }
+
+  /* Content */
+  .Content {
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .ContentImage {
+    width: 64px;
+    height: 100%;
+  }
+  .ContentTitle {
+    font-size: 14px;
+  }
+  .ContentDescription {
+    font-size: 12px;
+  }
+  /* Risk Section */
+
+  /* Indication Section */
+  .IndicationSectionTitle {
+    font-size: 32px;
+  }
+  .IndicationSectionCovid19 {
+    font-size: 32px;
+  }
+  .TitleBar {
+    margin-bottom: 1em;
+  }
+  /* Content */
+  .Content1 {
+    font-size: 14px;
+  }
+  .Content2 {
+    font-size: 14px;
+    padding: 0.5em 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .IndicationIllustration {
+    width: 100%;
+    margin: 1em 0;
+  }
+  /* Indication Section */
 }

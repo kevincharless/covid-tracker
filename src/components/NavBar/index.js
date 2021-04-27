@@ -18,7 +18,7 @@ const NavBar = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Navbar dark expand="md" fixed="top" style={{ backgroundColor: '#01BAB5' }}>
+        <Navbar dark expand="md" style={{ backgroundColor: '#01BAB5' }}>
             <Container>
                 <NavbarBrand href="/">
                     <img className="me-2 w-25" src={Logo} alt="Logo" />
@@ -27,19 +27,19 @@ const NavBar = () => {
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                     <Nav className="ms-auto" navbar>
-                        <NavItem className="mx-2">
+                        <NavItem className="mx-2" style={{ cursor: 'pointer' }}>
                             <NavLink to="beranda">Beranda</NavLink>
                         </NavItem>
-                        <NavItem className="mx-2">
+                        <NavItem className="mx-2" style={{ cursor: 'pointer' }}>
                             <NavLink>Resiko</NavLink>
                         </NavItem>
-                        <NavItem className="mx-2">
+                        <NavItem className="mx-2" style={{ cursor: 'pointer' }}>
                             <NavLink>Gejala</NavLink>
                         </NavItem>
-                        <NavItem className="mx-2">
+                        <NavItem className="mx-2" style={{ cursor: 'pointer' }}>
                             <NavLink>Penularan</NavLink>
                         </NavItem>
-                        <NavItem className="ms-2">
+                        <NavItem className="ms-2" style={{ cursor: 'pointer' }}>
                             <NavLink>Pencegahan</NavLink>
                         </NavItem>
                     </Nav>
