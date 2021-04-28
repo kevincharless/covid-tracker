@@ -1,10 +1,13 @@
 import { useSelector } from 'react-redux';
 import { IoIosArrowForward } from 'react-icons/io';
+import { Link, scrollSpy } from 'react-scroll';
 import TrackCount from './TrackCount';
+
 
 import VirusBackground from '../../assets/images/heroVirus.svg';
 import YouTube from 'react-youtube';
 import ImageSlider1 from '../../assets/images/imageSlider1.png';
+import { useEffect } from 'react';
 
 const HeroSection = () => {
     const covidTrack = useSelector(state => state.covidTrack);
@@ -22,6 +25,10 @@ const HeroSection = () => {
     const onReady = e => {
         e.target.pauseVideo();
     }
+
+    useEffect(() => {
+        scrollSpy.update();
+    }, [])
 
     return (
         // <Container className="d-flex flex-column justify-content-center" id="beranda" style={{ height: '100vh' }}>
@@ -74,7 +81,9 @@ const HeroSection = () => {
                                         Virus Corona (COVID-19) pertama kali dilaporkan di Wuhan, Hubei, China pada Desember 2019, wabah ini kemudian diakui sebagai pandemi oleh Organisasi Kesehatan Dunia (WHO) pada 11 Maret 2020.
                                     </p>
                                     <button className="SliderContent1Button btn">
-                                        Pencegahan <IoIosArrowForward className="fs-3" />
+                                        <Link activeClass="active" to="PreventionSection" spy={true} smooth={true} offset={0} duration={100}>
+                                            Pencegahan <IoIosArrowForward className="fs-3" />
+                                        </Link>
                                     </button>
                                 </div>
                             </div>

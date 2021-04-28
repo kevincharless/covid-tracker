@@ -15,6 +15,15 @@ body {
   height: 100vh;
 }
 
+.active {
+  text-decoration: none;
+  color: white;
+}
+.active:hover {
+  color: white;
+  cursor: pointer;
+}
+
 /* Slider */
 .SliderImage {
   max-width: 100%;
@@ -95,7 +104,6 @@ body {
   display: none;
   margin-top: 1.5em;
 }
-
 /* TrackCount */
 
 .Footer {
