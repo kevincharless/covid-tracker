@@ -6,19 +6,19 @@ import InfectionIllustration4 from '../../assets/images/infection4.png';
 
 const InfectionSection = () => {
     return (
-        <div className="position-relative py-3">
+        <div className="position-relative py-5">
             <div className="container">
                 <div className="InfectionSectionTitle">
                     Bagaimana Cara Penularan&nbsp;
                     <h1 className="InfectionSectionCovid19">COVID-19</h1> ?
                 </div>
                 <h1 className="InfectionSectionSubTitle">
-                    Berikut metode penularan  COVID-19
+                    Berikut metode penularan COVID-19
                 </h1>
                 <div className="row my-4">
                     <div className="col-md-12 col-lg-3">
                         <img className="InfectionIllustration" src={InfectionIllustration} alt="Infection Illustration" />
-                    </div> 
+                    </div>
                     <div className="InfectionContents col-md-12 col-lg-9 d-flex flex-column justify-content-center px-5">
                         <div className="row">
                             <div className="col-sm-12 col-md-6">
@@ -44,7 +44,7 @@ const InfectionSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row ">
                             <div className="col-sm-12 col-md-6">
                                 <div className="InfectionContent">
                                     <img className="InfectionContentImage" src={InfectionIllustration3} alt="Infection Illustration3" />

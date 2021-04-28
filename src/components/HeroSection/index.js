@@ -3,7 +3,6 @@ import { Button, Container, Row, Col } from 'reactstrap';
 import { IoIosArrowForward } from 'react-icons/io';
 import TrackCount from './TrackCount';
 
-import HeroIllustration from '../../assets/images/heroIllustration.png';
 import VirusBackground from '../../assets/images/virusBackground.svg';
 import YouTube from 'react-youtube';
 
@@ -40,7 +39,6 @@ const HeroSection = () => {
                     </Row>
                 </Col>
                 <Col xs="12" md="7" className="d-flex align-items-center justify-content-center">
-                    {/* <img class="img-fluid" src={HeroIllustration} alt="Hero Illustration" /> */}
                     <YouTube videoId="OPeuzQYRzAM" opts={opts} onReady={onReady} />;
                 </Col>
                 

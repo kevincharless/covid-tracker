@@ -17,8 +17,20 @@ body {
   background-color: #0868c7;
 }
 
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #01bab5;
+  color: #fff;
+  height: 50px;
+
+  font-size: 18px;
+}
+
 /* Risk Section */
-/* Risk Title */
+/* Risk RiskTitle */
 .RiskSectionTitle {
   color: #e96532;
   display: inline-block;
@@ -26,18 +38,18 @@ body {
   font-weight: bold;
   margin: 0;
 }
-.Title {
+.RiskTitle {
   display: block;
   line-height: 1em;
 }
-.Hashtag {
+.RiskHashtag {
   color: #0868c7;
   display: inline-block;
   font-size: 48px;
   font-weight: bold;
   margin: 0;
 }
-.Covid19 {
+.RiskCovid19 {
   color: #03ada8;
   display: inline-block;
   font-size: 48px;
@@ -56,6 +68,7 @@ body {
 
   text-align: center;
   width: 35%;
+  opacity: 0.8;
 }
 
 /* RiskContent
@@ -70,17 +83,17 @@ body {
   font-weight: 500;
   margin: 1.2em 0;
 }
-.ContentImage {
+.RiskContentImage {
   width: 128px;
   height: 100%;
 }
-.ContentTitle {
+.RiskContentTitle {
   color: #a52020;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
-.ContentDescription {
+.RiskContentDescription {
   font-size: 18px;
   margin: 0;
 }
@@ -155,8 +168,19 @@ body {
   padding: 0.4em 0.6em;
 }
 .InfectionIllustration {
-  width: 70%;
+  position: absolute;
+  z-index: -1;
+
+  display: block;
+  top: 13em;
+  bottom: 0;
+  left: 10em;
+
+  text-align: center;
+
+  width: 14%;
   height: auto;
+  opacity: 0.8;
 }
 
 /* Content */
@@ -165,7 +189,7 @@ body {
 
   display: flex;
   align-items: center;
-  margin-bottom: 2em;
+  margin: 2em 0;
   font-weight: 500;
 }
 .InfectionContentImage {
@@ -184,22 +208,86 @@ body {
 }
 /* Infection Section */
 
+/* Prevention Section */
+.PreventionTitle {
+  display: inline-block;
+}
+.PreventionSectionTitle {
+  color: #e96532;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+.PreventionSectionCovid19 {
+  color: #03ada8;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+.PreventionSectionSubTitle {
+  color: black;
+  /* display: inline-block; */
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.PreventionIllustration {
+  position: absolute;
+  z-index: -1;
+
+  display: block;
+  top: 25%;
+  right: 0;
+
+  text-align: center;
+  width: 38%;
+}
+
+/* Content */
+.PreventionContent {
+  color: black;
+
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+  font-weight: 500;
+}
+.PreventionContentImage {
+  width: 128px;
+  height: 100%;
+  margin-right: 2em;
+}
+.PreventionContentTitle {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+.PreventionContentDescription {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 500;
+}
+/* Prevention Section */
+
 @media only screen and (max-width: 1366px) {
   /* Risk Section */
   /* Risk Illustration */
   .RiskIllustration {
     top: 4em;
     width: 32%;
+    opacity: 0.8;
   }
 
   /* RiskContent */
-  .ContentImage {
+  .RiskContentImage {
     width: 96px;
   }
-  .ContentTitle {
+  .RiskContentTitle {
     font-size: 16px;
   }
-  .ContentDescription {
+  .RiskContentDescription {
     font-size: 14px;
   }
   /* Risk Section */
@@ -230,7 +318,7 @@ body {
 
   /* Content */
   .InfectionContent {
-    margin-bottom: 3em;
+    margin: 2em 0;
   }
   .InfectionContentImage {
     width: 96px;
@@ -242,42 +330,62 @@ body {
     font-size: 16px;
   }
   /* Infection Section */
+
+  /* Prevention Section */
+  .PreventionIllustration {
+    top: 26%;
+  }
+
+  /* Content */
+  .PreventionContentImage {
+    width: 96px;
+  }
+  .PreventionContentTitle {
+    font-size: 18px;
+  }
+  .PreventionContentDescription {
+    font-size: 16px;
+  }
+  /* Prevention Section */
 }
 
 @media only screen and (max-width: 900px) {
+  .Footer {
+    font-size: 16px;
+  }
   /* Risk Section */
-  /* Risk Title */
+  /* Risk RiskTitle */
   .RiskSectionTitle {
-    font-size: 28px;
+    font-size: 36px;
     margin: 1em 0;
   }
-  .Hashtag {
-    font-size: 28px;
+  .RiskHashtag {
+    font-size: 36px;
   }
-  .Covid19 {
-    font-size: 28px;
+  .RiskCovid19 {
+    font-size: 36px;
   }
 
   /* Risk Illustration */
   .RiskIllustration {
-    top: 3em;
+    top: 4em;
     width: 75%;
-    opacity: 0.8;
+    opacity: 0.2;
   }
 
   /* RiskContent */
   .RiskContent {
-    margin-bottom: 4em;
-    padding: 2em;
+    margin-bottom: 2em;
+    padding: 1.5em;
   }
-  .ContentImage {
+  .RiskContentImage {
     width: 96px;
     height: 100%;
   }
-  .ContentTitle {
+  .RiskContentTitle {
     font-size: 18px;
   }
-  .ContentDescription {
+  .RiskContentDescription {
     font-size: 16px;
   }
   /* Risk Section */
@@ -328,15 +436,15 @@ body {
 
     text-align: center;
     width: 30%;
-    opacity: 0.8;
+    opacity: 0.2;
   }
 
   /* Content */
   .InfectionContents {
-    margin: 3em 0;
+    margin: 4em 0;
   }
   .InfectionContent {
-    margin-bottom: 6em;
+    margin-bottom: 4em;
   }
   .InfectionContentImage {
     width: 96px;
@@ -348,20 +456,57 @@ body {
     font-size: 16px;
   }
   /* Infection Section */
+
+  /* Prevention Section */
+  .PreventionSectionTitle {
+    font-size: 38px;
+  }
+  .PreventionSectionCovid19 {
+    font-size: 38px;
+  }
+  .PreventionSectionSubTitle {
+    font-size: 24px;
+  }
+  .PreventionIllustration {
+    top: 25%;
+    right: 0;
+
+    width: 80%;
+    opacity: 0.2;
+  }
+
+  /* Content */
+  .PreventionContent {
+    margin: 5em 0;
+  }
+  .PreventionContentImage {
+    width: 96px;
+    margin-right: 2em;
+  }
+  .PreventionContentTitle {
+    font-size: 18px;
+  }
+  .PreventionContentDescription {
+    font-size: 16px;
+  }
+  /* Prevention Section */
 }
 
 @media only screen and (max-width: 600px) {
+  .Footer {
+    font-size: 10px;
+  }
   /* Risk Section */
-  /* Risk Title */
+  /* Risk RiskTitle */
   .RiskSectionTitle {
-    font-size: 16px;
-    margin: 0.5em 0;
+    font-size: 28px;
+    margin: 0;
   }
-  .Hashtag {
-    font-size: 16px;
+  .RiskHashtag {
+    font-size: 28px;
   }
-  .Covid19 {
-    font-size: 16px;
+  .RiskCovid19 {
+    font-size: 28px;
   }
 
   /* Risk Illustration */
@@ -373,30 +518,30 @@ body {
   /* RiskContent
  */
   .RiskContent {
-    margin-bottom: 1.5em;
+    margin-bottom: 0;
     padding: 1em;
   }
-  .ContentImage {
+  .RiskContentImage {
     width: 64px;
     height: 100%;
   }
-  .ContentTitle {
+  .RiskContentTitle {
     font-size: 14px;
   }
-  .ContentDescription {
+  .RiskContentDescription {
     font-size: 12px;
   }
   /* Risk Section */
 
   /* Indication Section */
   .IndicationSectionTitle {
-    font-size: 32px;
+    font-size: 28px;
   }
   .IndicationSectionCovid19 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .TitleBar {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
   /* RiskContent
  */
@@ -411,7 +556,8 @@ body {
   }
   .IndicationIllustration {
     width: 100%;
-    margin: 1em 0;
+    margin-top: 4.5em;
+    margin-bottom: 3em;
   }
   /* Indication Section */
 
@@ -437,12 +583,12 @@ body {
 
     text-align: center;
     width: 50%;
-    opacity: 0.8;
+    opacity: 0.2;
   }
 
   /* Content */
   .InfectionContents {
-    margin-bottom: 0;
+    margin: 0;
   }
   .InfectionContent {
     margin: 1em 0;
@@ -457,4 +603,40 @@ body {
     font-size: 14px;
   }
   /* Infection Section */
+
+  /* Prevention Section */
+  .PreventionSectionTitle {
+    font-size: 26px;
+    text-align: end;
+  }
+  .PreventionSectionCovid19 {
+    font-size: 26px;
+  }
+  .PreventionSectionSubTitle {
+    font-size: 18px;
+    text-align: end;
+  }
+  .PreventionIllustration {
+    top: 36%;
+    right: 0;
+
+    width: 80%;
+    opacity: 0.2;
+  }
+
+  /* Content */
+  .PreventionContent {
+    margin: 2.2em 0;
+  }
+  .PreventionContentImage {
+    width: 64px;
+    margin-right: 1em;
+  }
+  .PreventionContentTitle {
+    font-size: 16px;
+  }
+  .PreventionContentDescription {
+    font-size: 14px;
+  }
+  /* Prevention Section */
 }

@@ -8,13 +8,13 @@ const RiskSection = () => {
         <div className="position-relative py-5">
             <div className="container">
                 <div className="RiskSectionTitle">
-                    <span className="Title">
+                    <span className="RiskTitle">
                         Nggak mau jaga&nbsp;
-                        <h1 className="Hashtag">#protokolkesehatan</h1> ?
+                        <h1 className="RiskHashtag">#protokolkesehatan</h1> ?
                     </span>
-                    <span className="Title">
+                    <span className="RiskTitle">
                         Yuk kenali resiko-resiko&nbsp;
-                        <h1 className="Covid19">COVID-19 !</h1>
+                        <h1 className="RiskCovid19">COVID-19 !</h1>
                     </span>
                 </div>
                 <div className="row">
@@ -22,10 +22,10 @@ const RiskSection = () => {
                     </div> 
                     <div className="col-md-12 col-lg-8">
                         <div className="RiskContent" style={{ backgroundColor: '#63CCC9' }}>
-                            <img className="ContentImage" src={Lungs} alt="Lungs" />
+                            <img className="RiskContentImage" src={Lungs} alt="Lungs" />
                             <div>
-                                <h5 className="ContentTitle">Gangguan Pernapasan</h5>
-                                <ul className="ContentDescription">
+                                <h5 className="RiskContentTitle">Gangguan Pernapasan</h5>
+                                <ul className="RiskContentDescription">
                                     <li>
                                         <b>ARDS</b> atau acute respiratory distress syndrome adalah gangguan pernapasan berat yang disebabkan oleh penumpukan cairan di alveoli atau kantung udara kecil di paru-paru.
                                     </li>
@@ -36,19 +36,19 @@ const RiskSection = () => {
                             </div>
                         </div>
                         <div className="RiskContent" style={{ backgroundColor: '#85B754' }}>
-                            <img className="ContentImage" src={Jantung} alt="Jantung" />
+                            <img className="RiskContentImage" src={Jantung} alt="Jantung" />
                             <div>
-                                <h5 className="ContentTitle">Gangguan Jantung </h5>
-                                <div className="ContentDescription" style={{ margin: '0 2em' }}>
+                                <h5 className="RiskContentTitle">Gangguan Jantung </h5>
+                                <div className="RiskContentDescription" style={{ margin: '0 2em' }}>
                                     COVID-19 memperberat kerja jantung, sehingga berbahaya bagi orang yang memiliki riwayat gangguan jantung, seperti penyakit jantung dan gagal jantung.
                                 </div>
                             </div>
                         </div>
                         <div className="RiskContent" style={{ backgroundColor: '#62CBC9' }}>
-                            <img className="ContentImage" src={Kidney} alt="Kidney" />
+                            <img className="RiskContentImage" src={Kidney} alt="Kidney" />
                             <div>
-                                <h5 className="ContentTitle">Gangguan Ginjal & Hati</h5>
-                                <div className="ContentDescription" style={{ margin: '0 2em' }}>
+                                <h5 className="RiskContentTitle">Gangguan Ginjal & Hati</h5>
+                                <div className="RiskContentDescription" style={{ margin: '0 2em' }}>
                                     Beberapa laporan kasus terkait infeksi virus Corona menyebutkan bahwa sebagian penderita dengan gejala yang parah dapat mengalami gagal hati dan gangguan fungsi ginjal.
                                 </div>
                             </div>

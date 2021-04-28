@@ -1,4 +1,4 @@
-import { HeroSection, IndicationSection, InfectionSection, RiskSection } from '../../components';
+import { HeroSection, IndicationSection, InfectionSection, PreventionSection, RiskSection } from '../../components';
 import VirusBackground from '../../assets/images/virusBackground.svg';
 
 const Home = () => {
@@ -13,6 +13,7 @@ const Home = () => {
             <RiskSection />
             <IndicationSection />
             <InfectionSection />
+            <PreventionSection />
         </div>
     )
 }
