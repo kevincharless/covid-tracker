@@ -81,7 +81,7 @@ const HeroSection = () => {
                                         Virus Corona (COVID-19) pertama kali dilaporkan di Wuhan, Hubei, China pada Desember 2019, wabah ini kemudian diakui sebagai pandemi oleh Organisasi Kesehatan Dunia (WHO) pada 11 Maret 2020.
                                     </p>
                                     <button className="SliderContent1Button btn">
-                                        <Link activeClass="active" to="PreventionSection" spy={true} smooth={true} offset={0} duration={100}>
+                                        <Link activeClass="activeNav" to="PreventionSection" spy={true} smooth={true} offset={0} duration={100}>
                                             Pencegahan <IoIosArrowForward className="fs-3" />
                                         </Link>
                                     </button>
@@ -111,11 +111,11 @@ const HeroSection = () => {
                             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.austintexas.gov%2Fsites%2Fdefault%2Ffiles%2FCOVID-19gfx.png&f=1&nofb=1" className="d-block w-100" alt="..." />
                         </div>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev" style={{ width: '8%' }}>
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next" style={{ width: '8%' }}>
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
                     </button>

@@ -7,6 +7,14 @@ body {
 }
 
 /* Navbar */
+.NavLogo {
+  color: white;
+  text-decoration: none;
+}
+.NavLogo:hover {
+  color: white;
+  text-decoration: none;
+}
 .Logo {
   width: 15%;
 }
@@ -15,11 +23,23 @@ body {
   height: 100vh;
 }
 
-.active {
+.NavLink {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.NavLink:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.activeNav {
   text-decoration: none;
   color: white;
+  opacity: 1;
 }
-.active:hover {
+.activeNav:hover {
   color: white;
   cursor: pointer;
 }
