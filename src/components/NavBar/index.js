@@ -18,10 +18,10 @@ const NavBar = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Navbar dark expand="md" style={{ backgroundColor: '#01BAB5' }}>
+        <Navbar dark expand="md" fixed="top" style={{ backgroundColor: '#01BAB5' }}>
             <Container>
                 <NavbarBrand href="/">
-                    <img className="me-2 w-25" src={Logo} alt="Logo" />
+                    <img className="Logo me-2" src={Logo} alt="Logo" />
                     <b>COVID</b>Tracker
                 </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
