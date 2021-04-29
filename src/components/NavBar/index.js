@@ -4,10 +4,8 @@ import {
     Container,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
     Nav,
     NavItem,
-    NavLink
 } from 'reactstrap';
 
 import Logo from '../../assets/images/logo.svg';
