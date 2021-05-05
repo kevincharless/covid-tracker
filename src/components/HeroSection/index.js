@@ -5,7 +5,6 @@ import TrackCount from './TrackCount';
 
 
 import VirusBackground from '../../assets/images/heroVirus.svg';
-import YouTube from 'react-youtube';
 import ImageSlider1 from '../../assets/images/imageSlider1.png';
 import ImageSlider2 from '../../assets/images/imageSlider2.png';
 import ImageSlider3 from '../../assets/images/imageSlider3.png';
@@ -15,19 +14,6 @@ import { useEffect } from 'react';
 const HeroSection = () => {
     const covidTrack = useSelector(state => state.covidTrack);
     const covidCount = covidTrack?.covidCount?.data?.timeline[0];
-
-    const opts = {
-        height: '390',
-        width: '640',
-        playerVars: {
-            // https://developers.google.com/youtube/player_parameters
-            autoplay: 1,
-        },
-    };
-
-    const onReady = e => {
-        e.target.pauseVideo();
-    }
 
     useEffect(() => {
         scrollSpy.update();

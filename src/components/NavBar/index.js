@@ -21,7 +21,7 @@ const NavBar = () => {
     }, [])
 
     return (
-        <Navbar dark expand="md" fixed="top" style={{ backgroundColor: '#01BAB5' }}>
+        <Navbar dark expand="md" fixed="top" style={{ backgroundColor: '#01BAB5', height: '4em' }}>
             <Container>
                 <div>
                     <Link className="NavLogo" activeClass="activeNav" to="HeroSection" spy={true} smooth={true} offset={0} duration={100} style={{ cursor: 'pointer' }}>

@@ -1,9 +1,24 @@
+import YouTube from 'react-youtube';
+
 import RiskIllustration from '../../assets/images/riskIllustration.svg'
 import Lungs from '../../assets/images/lungs1.png';
 import Jantung from '../../assets/images/jantung1.png';
 import Kidney from '../../assets/images/kidney1.png';
 
 const RiskSection = () => {
+    const opts = {
+        height: '315',
+        width: '440',
+        playerVars: {
+            https: 'developers.google.com/youtube/player_parameters',
+            autoplay: 1,
+        },
+    };
+
+    const onReady = e => {
+        e.target.pauseVideo();
+    }
+
     return (
         <div className="position-relative py-5">
             <div className="container">
@@ -18,9 +33,10 @@ const RiskSection = () => {
                     </span>
                 </div>
                 <div className="row">
-                    <div className="col-md-12 col-lg-4 m-0">
+                    <div className="col-md-12 col-lg-5 m-0">
+                        <YouTube className="RiskContentVideo" videoId="gV2-gQYyZRs" opts={opts} onReady={onReady} />
                     </div> 
-                    <div className="col-md-12 col-lg-8">
+                    <div className="col-md-12 col-lg-7">
                         <div className="RiskContent" style={{ backgroundColor: '#63CCC9' }}>
                             <img className="RiskContentImage" src={Lungs} alt="Lungs" />
                             <div>

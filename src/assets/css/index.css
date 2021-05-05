@@ -207,18 +207,23 @@ body {
   font-weight: 500;
   margin: 1.2em 0;
 }
+.RiskContentVideo {
+  height: 315px;
+  width: 530px;
+  margin-top: 1.2em;
+}
 .RiskContentImage {
-  width: 128px;
+  width: 96px;
   height: 100%;
 }
 .RiskContentTitle {
   color: #a52020;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
 }
 .RiskContentDescription {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
 }
 /* Risk Section */
@@ -411,6 +416,10 @@ body {
   }
 
   /* RiskContent */
+  .RiskContentVideo {
+    height: 280px;
+    width: 450px;
+  }
   .RiskContentImage {
     width: 96px;
   }
@@ -558,6 +567,10 @@ body {
   .RiskContent {
     margin-bottom: 2em;
     padding: 1.5em;
+  }
+  .RiskContentVideo {
+    height: 440px;
+    width: 100%;
   }
   .RiskContentImage {
     width: 96px;
@@ -751,11 +764,14 @@ body {
     width: 95%;
   }
 
-  /* RiskContent
- */
+  /* RiskContent */
   .RiskContent {
     margin-bottom: 0;
     padding: 1em;
+  }
+  .RiskContentVideo {
+    height: 240px;
+    width: 100%;
   }
   .RiskContentImage {
     width: 64px;
