@@ -5,6 +5,10 @@ import { Footer, Navbar } from './components';
 import { Home } from './pages';
 import { getCount } from './redux/actions/covidTrack';
 
+import AOS from 'aos';
+
+AOS.init();
+
 const App = () => {
     const dispatch = useDispatch();
 

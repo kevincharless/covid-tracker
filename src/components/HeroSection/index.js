@@ -55,7 +55,7 @@ const HeroSection = () => {
             </div>
 
             <div className="row">
-                <div id="carouselExampleSlidesOnly" className="carousel slide p-0" data-bs-touch="true" data-bs-interval="false" data-bs-ride="carousel">
+                <div id="carouselExampleControlsNoTouching" className="carousel slide p-0" data-bs-touch="true" data-bs-interval="false">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={ImageSlider1} className="SliderImage" alt="ImageSlider1" />

@@ -22,7 +22,7 @@ const RiskSection = () => {
     return (
         <div className="position-relative py-5">
             <div className="container">
-                <div className="RiskSectionTitle">
+                <div className="RiskSectionTitle" data-aos="fade-right" adta-aos-duration="2500">
                     <span className="RiskTitle">
                         Nggak mau jaga&nbsp;
                         <h1 className="RiskHashtag">#protokolkesehatan</h1> ?
@@ -33,11 +33,11 @@ const RiskSection = () => {
                     </span>
                 </div>
                 <div className="row">
-                    <div className="col-md-12 col-lg-5 m-0">
+                    <div className="col-md-12 col-lg-5 m-0" data-aos="zoom-in" adta-aos-duration="2500" data-aos-delay="1200">
                         <YouTube className="RiskContentVideo" videoId="gV2-gQYyZRs" opts={opts} onReady={onReady} />
                     </div> 
                     <div className="col-md-12 col-lg-7">
-                        <div className="RiskContent" style={{ backgroundColor: '#63CCC9' }}>
+                        <div className="RiskContent" data-aos="fade-left" adta-aos-duration="2500" data-aos-delay="300" style={{ backgroundColor: '#63CCC9' }}>
                             <img className="RiskContentImage" src={Lungs} alt="Lungs" />
                             <div>
                                 <h5 className="RiskContentTitle">Gangguan Pernapasan</h5>
@@ -51,7 +51,7 @@ const RiskSection = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="RiskContent" style={{ backgroundColor: '#85B754' }}>
+                        <div className="RiskContent" data-aos="fade-left" adta-aos-duration="2500" data-aos-delay="600" style={{ backgroundColor: '#85B754' }}>
                             <img className="RiskContentImage" src={Jantung} alt="Jantung" />
                             <div>
                                 <h5 className="RiskContentTitle">Gangguan Jantung </h5>
@@ -60,7 +60,7 @@ const RiskSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="RiskContent" style={{ backgroundColor: '#62CBC9' }}>
+                        <div className="RiskContent" data-aos="fade-left" adta-aos-duration="2500" data-aos-delay="900" style={{ backgroundColor: '#62CBC9' }}>
                             <img className="RiskContentImage" src={Kidney} alt="Kidney" />
                             <div>
                                 <h5 className="RiskContentTitle">Gangguan Ginjal & Hati</h5>

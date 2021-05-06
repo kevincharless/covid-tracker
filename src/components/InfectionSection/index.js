@@ -8,11 +8,11 @@ const InfectionSection = () => {
     return (
         <div className="position-relative py-5">
             <div className="container">
-                <div className="InfectionSectionTitle">
+                <div className="InfectionSectionTitle" data-aos="fade-right" adta-aos-duration="2500">
                     Bagaimana Cara Penularan&nbsp;
                     <h1 className="InfectionSectionCovid19">COVID-19</h1> ?
                 </div>
-                <h1 className="InfectionSectionSubTitle">
+                <h1 className="InfectionSectionSubTitle" data-aos="fade-right" adta-aos-duration="2500">
                     Berikut metode penularan COVID-19
                 </h1>
                 <div className="row my-4">
@@ -22,7 +22,7 @@ const InfectionSection = () => {
                     <div className="InfectionContents col-md-12 col-lg-9 d-flex flex-column justify-content-center px-5">
                         <div className="row">
                             <div className="col-sm-12 col-md-6">
-                                <div className="InfectionContent">
+                                <div className="InfectionContent" data-aos="zoom-in" adta-aos-duration="2500" data-aos-delay="200">
                                     <img className="InfectionContentImage" src={InfectionIllustration1} alt="Infection Illustration1" />
                                     <div>
                                         <h5 className="InfectionContentTitle">Kontak Dengan Barang</h5>
@@ -33,7 +33,7 @@ const InfectionSection = () => {
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6">
-                                <div className="InfectionContent">
+                                <div className="InfectionContent" data-aos="zoom-in" adta-aos-duration="2500" data-aos-delay="400">
                                     <img className="InfectionContentImage" src={InfectionIllustration2} alt="Infection Illustration2" />
                                     <div>
                                         <h5 className="InfectionContentTitle">Droplets</h5>
@@ -46,7 +46,7 @@ const InfectionSection = () => {
                         </div>
                         <div className="row ">
                             <div className="col-sm-12 col-md-6">
-                                <div className="InfectionContent">
+                                <div className="InfectionContent" data-aos="zoom-in" adta-aos-duration="2500" data-aos-delay="600">
                                     <img className="InfectionContentImage" src={InfectionIllustration3} alt="Infection Illustration3" />
                                     <div>
                                         <h5 className="InfectionContentTitle">Kontak Fisik</h5>
@@ -57,7 +57,7 @@ const InfectionSection = () => {
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6">
-                                <div className="InfectionContent">
+                                <div className="InfectionContent" data-aos="zoom-in" adta-aos-duration="2500" data-aos-delay="800">
                                     <img className="InfectionContentImage" src={InfectionIllustration4} alt="Infection Illustration4" />
                                     <div>
                                         <h5 className="InfectionContentTitle">Tinja</h5>

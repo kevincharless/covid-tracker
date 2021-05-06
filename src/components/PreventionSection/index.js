@@ -11,7 +11,7 @@ const PreventionSection = () => {
                 <div className="row">
                     <div className="col-md-0 col-lg-4"></div>
                     <div className="col-md-12 col-lg-8 d-flex justify-content-end">
-                        <div className="PreventionTitle">
+                        <div className="PreventionTitle" data-aos="fade-left" adta-aos-duration="2500">
                             <div className="PreventionSectionTitle">
                                 Mari kita lawan&nbsp;
                                 <h1 className="PreventionSectionCovid19">COVID-19!&nbsp;</h1>
@@ -24,7 +24,7 @@ const PreventionSection = () => {
                 </div>
                 <div className="row my-4">
                     <div className="col-md-12 col-lg-8">
-                        <div className="PreventionContent">
+                        <div className="PreventionContent" data-aos="fade-right" adta-aos-duration="2500" data-aos-delay="250">
                             <img className="PreventionContentImage" src={PreventionIllustration1} alt="Prevention Illustration1" />
                             <div>
                                 <h5 className="PreventionContentTitle">Terapakan Social - Distancing</h5>
@@ -33,7 +33,7 @@ const PreventionSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="PreventionContent">
+                        <div className="PreventionContent" data-aos="fade-right" adta-aos-duration="2500" data-aos-delay="500">
                             <img className="PreventionContentImage" src={PreventionIllustration2} alt="Prevention Illustration2" />
                             <div>
                                 <h5 className="PreventionContentTitle">Gunakan Masker</h5>
@@ -42,7 +42,7 @@ const PreventionSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="PreventionContent">
+                        <div className="PreventionContent" data-aos="fade-right" adta-aos-duration="2500" data-aos-delay="750">
                             <img className="PreventionContentImage" src={PreventionIllustration3} alt="Prevention Illustration3" />
                             <div>
                                 <h5 className="PreventionContentTitle">Jagalah Kebersihan</h5>
@@ -51,7 +51,7 @@ const PreventionSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="PreventionContent">
+                        <div className="PreventionContent" data-aos="fade-right" adta-aos-duration="2500" data-aos-delay="1000">
                             <img className="PreventionContentImage" src={PreventionIllustration4} alt="Prevention Illustration4" />
                             <div>
                                 <h5 className="PreventionContentTitle">Jaga Kekebalan Tubuh</h5>
